@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.content {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.content h2 {
+    margin-top: 0;
+}
+
+.content ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.content li {
+    margin-bottom: 10px;
+}
+
+.content li span {
+    font-weight: bold;
+    display: inline-block;
+    width: 100px;
+}
+
+
+
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+
+    .skills {
+        flex-direction: column;
+    }
+
+    .skills ul {
+        flex-basis: 100%;
+    }
+}
